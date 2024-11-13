@@ -89,7 +89,7 @@ function MovieDetails({
 
   useEffect(() => {
     document.title = `Movie | ${title}`;
-    return () => (document.title = "PopCorn Films");
+    return () => (document.title = "FilmFlow");
   }, [title]);
 
   useKey("Escape", onCloseMovie);
